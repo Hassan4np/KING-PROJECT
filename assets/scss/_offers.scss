@@ -1,0 +1,28 @@
+.offers {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    & .container {
+        & h1 {
+            color: #FFF;
+            text-align: center;
+            font-family: "Passion One";
+            font-size: 62px;
+            text-transform: uppercase;
+        }
+        & .icone-div {
+            & div {
+                margin-right: 40px;
+            }
+            & .offer-icone {
+                & h1 {
+                    color: #FFD946;
+                }
+                & img {
+                    width: 65.862px;
+                    height: 65.862px;
+                    margin-right: 15px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,42 @@
+.footer {
+    background: #FAC150;
+    width: 100%;
+    height: 650px;
+    & .footer-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 60%;
+        & .footer-logo {
+            margin-bottom: 20px;
+        }
+        & .text {
+            & p {
+                color: #000;
+                text-align: center;
+                font-family: "Pangolin";
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 150%;
+                margin-bottom: 80px;
+            }
+            & .logo-img {
+                & div {
+                    width: 59.772px;
+                    height: 59.772px;
+                    margin-right: 18px;
+                    margin-bottom: 110px;
+                }
+            }
+        }
+    }
+    & p {
+        color: #000;
+        text-align: center;
+        font-family: "Pangolin";
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 150%;
+    }
+}
